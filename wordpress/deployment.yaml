@@ -33,7 +33,7 @@ spec:
     spec:
       containers:
       - name: wordpress
-        image: nikolaikunai/wordpress-sa:49
+        image: nikolaikunai/wordpress-sa:1
         env:
         - name: WORDPRESS_DB_HOST
           value: wordpress-mysql
