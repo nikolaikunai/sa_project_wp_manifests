@@ -53,7 +53,7 @@ spec:
           httpGet:
             path: /wp-login.php
             port: 80
-          initialDelaySeconds: 20
+          initialDelaySeconds: 10
           periodSeconds: 10
           failureThreshold: 10
           successThreshold: 1
